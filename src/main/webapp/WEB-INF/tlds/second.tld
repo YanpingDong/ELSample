@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	                  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  version="2.5">
+    
+  <description>JSTL 1.1 functions library</description>
+  <display-name>JSTL functions second</display-name>
+  <tlib-version>1.1</tlib-version>
+  <short-name>second</short-name>
+  <uri>http://java.sun.com/jsp/jstl/functionsecond</uri>
+
+  <function>
+    <description>get hello word info</description>
+    <name>getHello</name>
+    <function-class>com.dyp.elsample.SecondELTest</function-class>
+    <function-signature>java.lang.String getHello()</function-signature>
+    <example>${second:getHello()}</example>  
+  </function>
+  
+</taglib>
